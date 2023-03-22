@@ -1,0 +1,189 @@
+.projects_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transition-delay: 2s;
+    background: #9696de;
+    background: url('../../img/main_gif.gif') center center/auto 100% no-repeat;
+    height: 100vh;
+}
+
+.project_title___ {
+    width: 80%;
+    font-size: 220%;
+    text-align: center;
+    padding: 7px 10px;
+    border-radius: 12px;
+    background: #311833db;
+    color: #ffffff;
+    letter-spacing: 1px;
+    position: absolute;
+    top: -150px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 22;
+}
+
+.projects_projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+    object-fit: cover;
+}
+
+.proj_noice {
+    position: relative;
+    width: 100%;
+    height: 110%;
+    top: -5px;
+    left: 0;
+    object-fit: cover;
+    z-index: 6;
+    opacity: 0.09;
+}
+
+.block {
+    width: 71%;
+    max-width: 500px;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block_img {
+    position: absolute;
+    bottom: -44%;
+    left: 0px;
+    width: 100%;
+    object-fit: cover;
+    z-index: 10;
+}
+
+.block_img_wrap {
+    position: relative;
+    width: 100%;
+    max-width: 685px;
+    animation: up_down 4s infinite alternate ease;
+}
+
+@keyframes up_down {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.r_btn {
+    position: absolute;
+    top: 33%;
+    left: 95%;
+    width: 21%;
+    transition-duration: 0.3s;
+    z-index: 11;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.r_btn:hover {
+    left: 91%;
+    top: 26%;
+}
+
+.l_btn {
+    position: absolute;
+    top: 38%;
+    left: -10%;
+    width: 21%;
+    transition-duration: 0.3s;
+    z-index: 11;
+    cursor: pointer;
+}
+
+.l_btn:hover {
+    left: -12%;
+    top: 33%
+}
+
+.img_cont {
+    position: relative;
+    width: 58%;
+    height: 44%;
+    top: 40%;
+    left: 27%;
+}
+
+.targettt {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    top: -5px;
+    left: 0px;
+    z-index: 40;
+}
+
+.imgg {
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    width: 100%;
+    height: 110%;
+    object-fit: cover;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.imgg1 {
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    width: 100%;
+    height: 110%;
+    object-fit: cover;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.plue {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 22px;
+    font-family: fantasy;
+    font-weight: 300;
+    text-align: right;
+    text-shadow: -1px 0px 10px white;
+    animation: plueAnim 1.3s linear 0s infinite alternate forwards;
+}
+
+@keyframes plueAnim {
+    0% {
+        color: rgb(67, 66, 66);
+    }
+
+    100% {
+        color: black;
+    }
+}
+
+.control {
+    background: red;
+    position: absolute;
+    bottom: -19%;
+    right: 13%;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    background: #000;
+    transition-duration: 0.2s;
+}

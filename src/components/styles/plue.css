@@ -1,0 +1,44 @@
+.p3_links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.plue_links_item {
+    box-sizing: border-box;
+    transition-duration: 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+}
+
+.plue_links_item div {
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 100%;
+    height: 100%;
+}
+
+.plue_links_item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#ch2 div {
+    background: url('../../img/tv/ico/git.png') 50%/100% no-repeat;
+}
+
+#ch1 div {
+    background: url('../../img/tv/ico/telega.png') 50%/100% no-repeat;
+}
+
+#ch3 div {
+    background: url('../../img/tv/ico/mail.png') 50%/100% no-repeat;
+}

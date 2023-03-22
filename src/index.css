@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.remove {
+    display: none;
+}
+
+#detach-button-host {
+    display: none;
+}
+
+*::-webkit-scrollbar {
+    height: 12px;
+    width: 8px;
+    opacity: 0.01;
+}
+
+*::-webkit-scrollbar-track {
+    background: #664c1c;
+    opacity: 0.01;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ffad16;
+    border-radius: 5px;
+    border: 4px solid #ffad16;
+    opacity: 0.01;
+}

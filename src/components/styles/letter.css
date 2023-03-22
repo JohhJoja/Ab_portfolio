@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Sono&display=swap');
+
+.letterWrapper {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: block;
+    background: rgb(57, 56, 56);
+    padding-top: 60px;
+    background: #000;
+    z-index: 2;
+    display: none;
+    position: fixed;
+    justify-content: center;
+    top: 0;
+    left: 0;
+}
+
+.textWrap {
+    width: 70%;
+    padding: 10px 60px;
+    color: white;
+    font-size: 23px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.text_2 {
+    position: absolute;
+    bottom: 180px;
+    right: 20px;
+    margin-left: 40px;
+    font-size: 18px;
+    display: none;
+    font-family: 'Comfortaa', cursive;
+    text-align: right;
+    animation: text 1.3s linear 0s infinite alternate forwards;
+}
+
+@keyframes text {
+    0% {
+        color: rgb(57, 56, 56);
+    }
+
+    100% {
+        color: white;
+    }
+}

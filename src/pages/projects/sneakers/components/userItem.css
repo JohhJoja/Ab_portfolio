@@ -1,0 +1,65 @@
+.SN .item {
+    box-sizing: border-box;
+    position: relative;
+    flex: 1 1 100px;
+    border-radius: 10px;
+    max-height: 250px;
+    max-width: 250px;
+    overflow: hidden;
+    background: #000;
+    margin: 4px;
+}
+
+.SN .img_wrapp {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.SN .img_wrapp img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.SN .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.SN .textWrap {
+    display: none;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0000;
+}
+
+.SN .textWrap:hover {
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+}
+
+.SN .textWrap div:hover {
+    background: rgb(77, 76, 76);
+}
+
+.SN .textWrap div {
+    padding: 10px;
+    border-radius: 4px;
+
+}
